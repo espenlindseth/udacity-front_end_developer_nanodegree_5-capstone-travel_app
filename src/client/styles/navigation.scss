@@ -1,0 +1,45 @@
+#nav-container .form-group {
+	border: 1px solid #999;
+    padding: 5px;
+    margin-top: 15px;	
+}
+
+#nav-container .form-group label {
+	margin-top: 10px;
+}
+
+#nav-container .form-group input {
+	margin-bottom: 5px;
+}
+
+#nav-container #input-date {
+	font-size: 0.8em;
+}
+
+#nav-container .form-group .btn {
+	margin: 25px auto;
+	width: 80%;
+}
+
+#travel-items {
+	// padding: 10px;
+
+	.card {
+		border: 1px solid #999;
+		margin-top: 5px;
+		cursor: pointer;
+	}
+	.card-body {
+		padding: 10px;
+	}
+
+	h5 {
+		margin-bottom: 2.5px;
+	}
+
+	img {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+}

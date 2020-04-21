@@ -1,0 +1,52 @@
+#next-trip {
+	display: none;
+	padding: 25px;
+    padding: 5px;
+    background-color: #fff;
+	
+	&.visible {
+		display: block;
+	}
+	h2 {
+		font-weight: 300;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	#next-trip-content {
+		margin-top: 5px;
+	}
+
+	#next-trip-info {
+		padding-top: 5px;
+		border: 1px solid #999;
+		margin-top: 5px;
+
+		h3 {
+    		font-weight: 300			
+		}
+
+		#next-trip-buttons {
+			button {
+				margin-bottom: 5px;
+			}
+		}
+
+		.pack-list-delete {
+			cursor: pointer;
+		}
+	}
+}
+
+#no-trip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+
+    &.hidden {
+    	display: none;
+    }
+}
